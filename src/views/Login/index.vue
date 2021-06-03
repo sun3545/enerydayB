@@ -1,9 +1,9 @@
 <template>
     <div class="login-container">
-        <a-form-model-item :wrapper-col="{ span: 14, offset: 4 }">
+        <!-- <a-form-model-item :wrapper-col="{ span: 14, offset: 4 }">
             <a-button :type="getName"> 登录 </a-button>
             <a-button style="margin-left: 10px" :type="getSubName"> 注册 </a-button>
-        </a-form-model-item>
+        </a-form-model-item> -->
         <a-form-model ref="login" :model="login" :rules="rules" v-bind="layout">
             <a-form-model-item has-feedback label="邮箱" prop="email">
                 <a-input v-model="login.email" type="text" autocomplete="off" />

@@ -102,7 +102,9 @@ export default {
             top: 50px;
         }
         &:hover li:last-child {
+            // background:rgba(0, 0, 0, .3) ;
             display: block !important;
+            color: red;
         }
     }
 }

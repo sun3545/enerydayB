@@ -69,7 +69,7 @@ export const routes = [
       meta: {
         title: '添加商品',
         hidden: false,
-
+ 
       },
       component: () => import('@/views/page/ProductAdd.vue'),
     }, {
